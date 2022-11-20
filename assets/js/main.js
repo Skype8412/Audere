@@ -8,6 +8,12 @@
   "use strict";
 
   /**
+   * Scroll to section
+   */
+  
+
+
+  /**
    * Easy selector helper function
    */
   const select = (el, all = false) => {
@@ -45,7 +51,7 @@
    * Scrolls to an element with header offset
    */
   const scrollto = (el) => {
-    let header = select('#header')
+    let call = select('#callr')
     let offset = header.offsetHeight
 
     if (!header.classList.contains('header-scrolled')) {
