@@ -327,7 +327,7 @@ div span.btn-txt-2{
 #hero p {
   font-family: "Caveat";
   font-size: 48px;
-  line-height: 0.9;
+  line-height: 1.1;
   margin-top: 10px;
   color: #FFD400;
 }
@@ -629,7 +629,7 @@ section {
 .counts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-size: 14px;
+  font-size: 15px;
   color: #2b2b2b;
 }
 
@@ -726,12 +726,28 @@ section {
   border: 3px solid #041c5c;
   width: 200px;
   height: 200px;
+  
+}
+
+.team b.mr{
+  color: #163EB6;
+}
+
+.team img.img-amanda{
+  object-fit: cover;
+  object-position: 100% 0%;
+}
+
+.team img.img-alejandro{
+  object-fit: cover;
+  object-position: 100% 20%;
 }
 
 .team h1{
   font-size: 46px;
   color: rgb(0, 0, 0);
   font-weight: 700;
+  line-height: 0.9;
 }
 
 .team h2{
@@ -788,7 +804,6 @@ section {
 
 .call b.blue-b{
   color: #163EB6;
-  font-family: "Caveat";
 }
 
 .call b.yel-b{
