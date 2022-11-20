@@ -390,7 +390,9 @@ div span.btn-txt-2{
     width: 160px;
   }
  
-  
+  #call .call-com{
+    width: -webkit-fill-available;
+  }
 }
 
 @media (max-width: 768px) {
@@ -442,8 +444,8 @@ div span.btn-txt-2{
   }
 
   #team img{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
   }
 
   #footer div h2{
@@ -467,6 +469,8 @@ div span.btn-txt-2{
   
 }
 
+
+
 @media (max-width: 575px),
 (max-height: 600px) {
   #hero {
@@ -474,6 +478,13 @@ div span.btn-txt-2{
   }
 
  
+}
+
+@media (max-width: 420px){
+  #team img{
+    height: 100px;
+    width: 100px;
+  }
 }
 
 @-webkit-keyframes up-down {
@@ -823,6 +834,9 @@ section {
   color: #163EB6;
 }
 
+#call .call-com{
+  width: 500px;
+}
 
 /*--------------------------------------------------------------
 # Footer
