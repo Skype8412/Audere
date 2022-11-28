@@ -325,8 +325,9 @@ div span.btn-txt-2{
 }
 
 #hero p {
-  font-family: "Caveat";
-  font-size: 48px;
+  
+  font-size: 24px;
+  font-weight: 700;
   line-height: 1.1;
   margin-top: 10px;
   color: #FFD400;
@@ -393,6 +394,14 @@ div span.btn-txt-2{
   #call .call-com{
     width: -webkit-fill-available;
   }
+
+  #counts {
+    height: auto;
+  }
+
+  #offer {
+    height: auto;
+  }
 }
 
 @media (max-width: 768px) {
@@ -408,6 +417,10 @@ div span.btn-txt-2{
 
   #hero .hero-img img {
     width: 60%;
+  }
+
+  #team h1{
+    font-size: 36px;
   }
 
   #counts .counters span {
@@ -435,6 +448,7 @@ div span.btn-txt-2{
     height: auto;
   }
 
+
   #team{
     padding: 20px;
   }
@@ -450,6 +464,14 @@ div span.btn-txt-2{
 
   #footer div h2{
     font-size: 18px;
+  }
+
+  #call h2{
+    font-size: 32px;
+  }
+
+  #footer h1{
+    font-size: 38px;
   }
 }
 
@@ -743,11 +765,10 @@ section {
   object-position: 100% 20%;
 }
 
-.team h1{
-  font-size: 46px;
-  color: rgb(0, 0, 0);
+#team h1{
+  font-size: 38px;
+  color: #000000;
   font-weight: 700;
-  line-height: 0.9;
 }
 
 .team h2{
@@ -775,6 +796,12 @@ section {
   margin: 0 0 20px 0;
   font-size: 16px;
   color: #2b2b2b;
+}
+
+.team i.highlighted{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #ffec8d;
 }
 /*--------------------------------------------------------------
 # Call
@@ -807,10 +834,9 @@ section {
 }
 
 .call b.yel-b{
-  font-family: "Caveat";
   line-height: 0.9;
   margin-bottom: 15px;
-  color:#17a2f3;
+  color:#163EB6;
 }
 
 .call h3{
@@ -863,6 +889,10 @@ section {
   background-size: cover;
   padding: 200px 0 100px 0;
   
+}
+
+#footer p{
+  font-size: 8px;
 }
 
 
