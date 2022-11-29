@@ -308,7 +308,6 @@ div span.btn-txt-2{
   background-size: cover;
 }
 
-
 #hero h1 {
   margin: 0;
   font-size: 52px;
@@ -325,7 +324,6 @@ div span.btn-txt-2{
 }
 
 #hero p {
-  
   font-size: 24px;
   font-weight: 700;
   line-height: 1.1;
@@ -340,6 +338,48 @@ div span.btn-txt-2{
 }
 
 #hero .btn-get-started:hover {
+  background: #fff;
+  color:  #163eb6;
+  transform: translate(0px, -10px);
+  box-shadow: 0px 10px 25px 0px rgba(255, 255, 255, 0.4);
+}
+
+#hero-thk{
+  width: 100%;
+  background: linear-gradient(to top, rgb(4, 28, 92), rgba(22, 62, 182, 0.8), rgb(0, 13, 52)), url("../../assets/img/hero-bg-1.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+#hero-thk h1 {
+  margin: 0;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #fff;
+}
+
+#hero-thk h2 {
+
+  color: rgba(255, 255, 255, 0.8);
+  margin: 10px 0 0 0;
+  font-size: 20px;
+}
+
+#hero-thk p {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 10px;
+  color: #FFD400;
+}
+
+
+#hero-thk .btn-get-started{
+  background: #fff;
+  color:  #163eb6;
+}
+
+#hero-thk .btn-get-started:hover {
   background: #fff;
   color:  #163eb6;
   transform: translate(0px, -10px);
@@ -919,4 +959,28 @@ section {
   color:  #163eb6;
   transform: translate(0px, -10px);
   box-shadow: 0px 10px 25px 0px rgba(255, 255, 255, 0.4);
+}
+
+#footer-thank{
+  color: #1b1b1b;
+  font-size: 14px;
+  background-color: #e6e6e6;
+  padding: 50px 0 50px 0;
+  
+}
+
+#footer-thank p{
+  font-size: 8px;
+}
+#footer-thank h1{
+  font-size: 36px;
+  color: #163eb6;
+  font-weight: 700;
+  line-height: 0.9;
+}
+
+#footer-thank h2{
+  font-weight: 400;
+  font-size: 24px;
+  color: #2b2b2b;
 }
