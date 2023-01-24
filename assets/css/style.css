@@ -348,6 +348,7 @@ div span.btn-txt-2{
   width: 100%;
   background: linear-gradient(to top, rgb(4, 28, 92), rgba(22, 62, 182, 0.8), rgb(0, 13, 52)), url("../../assets/img/hero-bg-1.jpg") center center no-repeat;
   background-size: cover;
+  mix-blend-mode: normal;
 }
 
 #hero-thk h1 {
@@ -389,7 +390,6 @@ div span.btn-txt-2{
 
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
- 
 }
 
 #hero div img{
@@ -682,8 +682,6 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  height: 80vh;
-  padding: 40px 0 40px 0;
   background-color: rgb(248 247 247);
 }
 
@@ -717,7 +715,7 @@ section {
 --------------------------------------------------------------*/
 
 .offer {
-  height: 100vh;
+
   background-image:url("../../assets/img/offer-bg-fn.svg");
   background-size: cover;
   background-position: center;
@@ -777,7 +775,7 @@ section {
 
 .offer li i{
   font-size: 14px;
-  color: #d31201;
+  color: #70e000;
 }
 
 /*--------------------------------------------------------------
@@ -802,7 +800,7 @@ section {
 
 .team img.img-alejandro{
   object-fit: cover;
-  object-position: 100% 20%;
+  object-position: 150% 20%;
 }
 
 #team h1{
@@ -838,9 +836,9 @@ section {
   color: #2b2b2b;
 }
 
-.team i.highlighted{
-  padding-left: 10px;
-  padding-right: 10px;
+i.highlighted{
+  padding-left: 2px;
+  padding-right: 2px;
   background-color: #ffec8d;
 }
 /*--------------------------------------------------------------
